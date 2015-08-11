@@ -11,7 +11,7 @@ git clone https://github.com/dsaint-pierre-sonian/opta
 
 There is now a folder named opta. Type:
 
-cd opta
+`cd opta`
 
 You're now in the opta folder.
 
@@ -20,11 +20,11 @@ INSTALL HOMEBREW
 
 Homebrew is awesome and easy to setup. In terminal run the following:
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Let the script run. Once it is finished type:
 
-brew update
+`brew update`
 
 The repository will update.
 
@@ -32,27 +32,27 @@ INSTALL PHANTOMJS
 --
 Still in Terminal (getting used to it?) type:
 
-brew install phantomjs
+`brew install phantomjs`
 
 Let it do its thing. If there is an error message try:
 
-sudo brew install phantomjs
+`sudo brew install phantomjs`
 
 INSTALL BUNDLER AND BUNDLE INSTALL
 --
 Alright, we're nearly there. Type:
 
-sudo gem install bundler
+`sudo gem install bundler`
 
 Things will fly across the screen. Perfect. Once its done, type:
 
-bundle install
+`bundle install`
 
 GET YOUR OPTA
 --
 Run:
 
-ruby opta_export.rb
+`ruby opta_export.rb`
 
 It will export to a csv file.
 
