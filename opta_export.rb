@@ -46,6 +46,8 @@ rescue NoMethodError, Interrupt
   exit
 end
 
+puts "Running..."
+
 b.button(type: "submit").click
 
 b.goto("http://xperteleven.com/standings.aspx?Lid=288129&Sel=T&Lnr=1&dh=2")
